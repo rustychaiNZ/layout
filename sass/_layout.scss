@@ -1,0 +1,36 @@
+.div1{
+	width: 8*$col;
+	height: 100px;
+	background: $pColor;
+	float: left;
+}
+.div2{
+	width: 4*$col;
+	height: 100px;
+	background: $sColor;
+	float: left;
+}
+.divSpan{
+	width: 12*$col;
+	height: 100px;
+	background: $tColor;
+	float: left;
+}
+.mAuto{
+	margin: auto;
+}
+
+/* loop for repeating */
+@for $i from 1 to 12{
+	.col-#{$i}{
+		width: $i*8.33%;
+		float: left;
+		height: 100px;
+	}
+}
+
+.clearFix{
+	content: "";
+	display: block;
+	clear: both;
+}

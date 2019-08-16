@@ -1,0 +1,20 @@
+@import 'variables.scss';
+@import 'reset.scss';
+@import 'layout.scss';
+// Imports end
+
+h2{
+	text-align: center;
+	margin-top: 35px;
+	font-family: helvetica;
+}
+
+.c1{
+	background: $pColor;
+}
+.c2{
+	background: $sColor;
+}
+.c3{
+	background: $tColor;
+}

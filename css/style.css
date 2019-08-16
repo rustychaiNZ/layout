@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.div1 {
+  width: 66.64%;
+  height: 100px;
+  background: red;
+  float: left; }
+
+.div2 {
+  width: 33.32%;
+  height: 100px;
+  background: green;
+  float: left; }
+
+.divSpan {
+  width: 99.96%;
+  height: 100px;
+  background: darkslategray;
+  float: left; }
+
+.mAuto {
+  margin: auto; }
+
+/* loop for repeating */
+.col-1 {
+  width: 8.33%;
+  float: left;
+  height: 100px; }
+
+.col-2 {
+  width: 16.66%;
+  float: left;
+  height: 100px; }
+
+.col-3 {
+  width: 24.99%;
+  float: left;
+  height: 100px; }
+
+.col-4 {
+  width: 33.32%;
+  float: left;
+  height: 100px; }
+
+.col-5 {
+  width: 41.65%;
+  float: left;
+  height: 100px; }
+
+.col-6 {
+  width: 49.98%;
+  float: left;
+  height: 100px; }
+
+.col-7 {
+  width: 58.31%;
+  float: left;
+  height: 100px; }
+
+.col-8 {
+  width: 66.64%;
+  float: left;
+  height: 100px; }
+
+.col-9 {
+  width: 74.97%;
+  float: left;
+  height: 100px; }
+
+.col-10 {
+  width: 83.3%;
+  float: left;
+  height: 100px; }
+
+.col-11 {
+  width: 91.63%;
+  float: left;
+  height: 100px; }
+
+.clearFix {
+  content: "";
+  display: block;
+  clear: both; }
+
+h2 {
+  text-align: center;
+  margin-top: 35px;
+  font-family: helvetica; }
+
+.c1 {
+  background: red; }
+
+.c2 {
+  background: green; }
+
+.c3 {
+  background: darkslategray; }
+
+/*# sourceMappingURL=style.css.map */
